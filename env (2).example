@@ -1,0 +1,26 @@
+# ── Required ──────────────────────────────────────────────────────────────────
+BOT_TOKEN=1234567890:ABCDefgh_your_bot_token
+API_ID=12345678
+API_HASH=abcdef1234567890abcdef1234567890
+MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/
+BOT_USERNAME=YourBotUsername          # without @
+
+# ── Owner & Moderators ────────────────────────────────────────────────────────
+OWNER_ID=123456789
+MODERATORS=111111111 222222222        # space separated IDs, or leave empty
+
+# ── Channels ──────────────────────────────────────────────────────────────────
+STORAGE_CHANNEL=-1001234567890        # private channel; bot must be admin here
+LOG_CHANNEL=-1009876543210            # optional; leave 0 to disable
+
+# ── Force Join (leave empty "" to disable) ────────────────────────────────────
+FORCE_SUB=@your_channel               # users must join before using bot
+
+# ── Updates Channel (shown on /start button) ──────────────────────────────────
+UPDATES_CHANNEL=@your_updates_channel
+
+# ── Optional ──────────────────────────────────────────────────────────────────
+DB_NAME=FileStoreBot
+FILE_AUTO_DELETE=0                    # auto delete sent files (seconds), 0 = off
+SHORT_API_KEY=                        # link shortener API key
+SHORT_API_URL=                        # e.g. https://api.example.com/api
